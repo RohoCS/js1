@@ -1,0 +1,13 @@
+import { code } from './prepareTestEnvironment.js'
+
+eval(code)
+
+describe('Task #9: Transform text case', () => {
+  test('upperStr is correctly transformed to uppercase', () => {
+    expect(global.upperStr).toBe('SOME STRING')
+  })
+
+  test('lowerStr is correctly transformed to lowercase', () => {
+    expect(global.lowerStr).toBe('some string')
+  })
+})
