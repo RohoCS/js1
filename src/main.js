@@ -5,14 +5,14 @@ console.log('#1. JavaScript homework example file')
  *
  * Створіть змінні зі значеннями.
  */
-var myNum = 10 // ім'я змінної: myNum, значення: 10
-var myStr = 'some string' // ім'я змінної: myStr, значення: 'some string'
-var myBool = true // ім'я змінної: myBool, значення: true
-var myArr = [1, 2, 3, 4, 5] // ім'я змінної: myArr, значення: 1, 2, 3, 4, 5
+var myNum = 10 // variable name: myNum, value: 10
+var myStr = 'some string' // variable name: myStr, value: 'some string'
+var myBool = true // variable name: myBool, value: true
+var myArr = [1, 2, 3, 4, 5] // variable name: myArr, value: 1, 2, 3, 4, 5
 var myObj = {
   first: 'First Name',
   last: 'Last Name'
-} // ім'я змінної myObj, значення: first: 'First Name', last: 'Last Name'
+} // name of the variable myObj, value: first: 'First Name', last: 'Last Name'
 
 console.log('myNum: ', myNum)
 console.log('myStr:', myStr)
@@ -23,7 +23,7 @@ console.log('myObj:', myObj)
 /*
  * #2
  *
- * Відформатуйте ціле число, яке зберігається у змінній myNum, щоб отримати результат з 2 знаками після коми.
+ * Відформатуйте ціле число, яке зберігається в змінній myNum, щоб отримати результат з 2 знаками після коми.
  * Результат збережіть у змінній decimal2.
  */
 var decimal2 = myNum.toFixed(2)
@@ -31,7 +31,7 @@ var decimal2 = myNum.toFixed(2)
 /*
  * #3
  *
- * Створіть змінну i, для якої виконайте префіксний та постфіксний інкремент і декремент.
+ * Створіть змінну i, для якої виконайте префіксний та постфіксний інкремент та декремент.
  * Поекспериментуйте з результатами, виводячи їх у консоль.
  */
 var i = 0
@@ -71,25 +71,25 @@ console.log('%=', myTest)
 /*
  * #5
  *
- * Використовуючи властивості та методи об'єкта Math, присвойте змінним та відобразіть у консолі
+ * Використовуючи властивості та методи об'єкта Math, присвойте змінним та відобразіть у консолі.
  */
-var myPi = Math.PI // константа Pi → myPi
+var myPi = Math.PI // constant Pi → myPi
 console.log('myPi:', myPi)
 
-var myRound = Math.round(89.279) // округлене значення числа 89.279 → myRound
+var myRound = Math.round(89.279) // rounded value of 89.279 → myRound
 console.log('myRound:', myRound)
 
-var myRandom = Math.random() * 10 // випадкове число між 0..10 → myRandom
+var myRandom = Math.random() * 10 // random number between 0..10 → myRandom
 console.log('myRandom:', myRandom)
 
-var myPow = Math.pow(3, 5) // 3 у 5 степені → myPow
+var myPow = Math.pow(3, 5) // 3 to the 5th power → myPow
 console.log('myPow:', myPow)
 
 /*
  * #6
  *
  * Створіть об'єкт з ім'ям strObj.
- * Присвойте ключу str довільний непорожній рядок тексту, ключу length встановіть довжину цього рядка.
+ * Присвойте ключу str рядок тексту "Мама мыла раму, рама мыла маму", ключу length встановіть довжину цього рядка.
  */
 var strObj = { str: 'Мама мыла раму, рама мыла маму' }
 
@@ -115,7 +115,7 @@ console.log('isRama:', isRama)
  * Виконайте перейменування підрядка у рядку.
  * Як вихідний рядок використовуйте значення поля str об'єкта strObj (див.п.6), результат збережіть у змінній strReplace та відобразіть у консолі.
  * Вихідний рядок: 'Мама мыла раму, рама мыла маму'
- *       Результат: 'Мама моет раму, Рама держит маму'
+ *      Результат: 'Мама моет раму, Рама держит маму'
  */
 var strReplace = strObj.str.replace('мыла', 'моет')
 
