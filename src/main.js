@@ -10,7 +10,7 @@ console.log('#1. Приклад домашнього завдання з JavaScr
 // ім'я змінної: myStr, значення: 'some string'
 // ім'я змінної: myBool, значення: true
 // ім'я змінної: myArr, значення: 1, 2, 3, 4, 5
-// ім'я змінної myObj, значення: first: 'First Name', last: 'Last Name'
+// ім'я змінної: myObj, значення: first: 'First Name', last: 'Last Name'
 
 /*
  * #2
