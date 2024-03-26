@@ -12,6 +12,7 @@ console.log('JS #1. Домашнє завдання. Основи JavaScript: П
 // ім'я змінної: myArr, значення: 1, 2, 3, 4, 5
 // ім'я змінної: myObj, значення: first: 'First Name', last: 'Last Name'
 
+
 /*
  * #2
  *
@@ -20,6 +21,7 @@ console.log('JS #1. Домашнє завдання. Основи JavaScript: П
  */
 
 // decimal2
+
 
 /*
  * #3
